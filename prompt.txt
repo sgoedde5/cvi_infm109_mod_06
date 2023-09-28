@@ -1,0 +1,39 @@
+**Prompt for Student 1 (load_data.py):**
+
+Your task is to create a Python script ('load_data.py') that loads product data from a CSV file.
+The CSV file contains information about products, such as product names, prices, quantities, and categories.
+Implement a function in 'load_data.py' that loads the data from the CSV file, validates it, and returns the product data as a list of dictionaries.
+
+Ensure that your function can handle cases where the file does not exist or the data is invalid.
+If any issues are encountered, return an appropriate error message as a string.
+
+**Prompt for Student 2 (main.py):**
+
+Your task is to create a Python script ('main.py') that provides a user interface for analyzing the loaded product data.
+The main menu of your program should have the following options:
+1. Load Product Data from a CSV File.
+2. Analyze Product Data.
+3. Exit.
+
+Implement the following functionality in 'main.py':
+- When the user chooses option 1, allow them to enter the filename of a CSV file containing product
+  data. Call the function from 'load_data.py' to load the data and display a message confirming that the data has been loaded.
+- When the user chooses option 2, call a function from 'analyze_data.py' to analyze the loaded product
+  data and return the analysis results as a formatted string. Display this information to the user.
+- Ensure that the program handles cases where the file does not exist or the data is empty by displaying appropriate error messages.
+
+**Prompt for Student 3 (analyze_data.py):**
+
+Your task is to create a Python script ('analyze_data.py') that performs the analysis of the loaded
+product data. Implement a function in 'analyze_data.py' that takes the product data as input and returns the following statistics 
+as a formatted string:
+- Total number of products.
+- Average price of the products.
+- The name and price of the most expensive product.
+- The name and price of the least expensive product.
+
+Ensure that your function handles the analysis correctly and formats the results neatly as a string.
+If the product data is empty, return an appropriate message indicating that the data is empty.
+
+Remember that the other two students (student1 and student2) will call your function to perform the analysis,
+so make sure your function works seamlessly with the input provided by student1 and can return the analysis results as requested.
